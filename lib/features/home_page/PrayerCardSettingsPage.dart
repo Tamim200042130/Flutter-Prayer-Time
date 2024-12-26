@@ -177,12 +177,12 @@ class PrayerCardSettingsPageState extends State<PrayerCardSettingsPage> {
               defaultState: selectedState,
               defaultCity: selectedCity,
             ),
-            if (selectedCountry != null) Text('Country: ${selectedCountry!
-                .toString()
-                .split('.')
-                .last}'),
-            if (selectedState != null) Text('State: $selectedState'),
-            if (selectedCity != null) Text('City: $selectedCity'),
+            // if (selectedCountry != null) Text('Country: ${selectedCountry!
+            //     .toString()
+            //     .split('.')
+            //     .last}'),
+            // if (selectedState != null) Text('State: $selectedState'),
+            // if (selectedCity != null) Text('City: $selectedCity'),
             const Spacer(),
             AppButton(
               onTap: () async {

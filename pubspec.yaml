@@ -19,7 +19,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ">=3.4.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -37,10 +37,15 @@ dependencies:
   adhan: ^2.0.0+1
   intl: ^0.20.0
   geolocator: ^7.6.2
-  csc_picker: ^0.2.7
-  shared_preferences: ^2.2.2
+#  csc_picker: ^0.2.7
+  shared_preferences: ^2.3.2
   geocoding: ^2.1.1
+
 #  google_maps_flutter: ^2.5.0
+  csc_picker:
+    git:
+      url: https://github.com/Tamim200042130/csc_picker.git
+      ref: tamim
 
 
 
